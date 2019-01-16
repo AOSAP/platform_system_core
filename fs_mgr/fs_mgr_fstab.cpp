@@ -996,3 +996,4 @@ int fs_mgr_has_sysfs_path(const struct fstab_rec *fstab)
 {
     return fstab->fs_mgr_flags & MF_SYSFS;
 }
+
